@@ -25,12 +25,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`w-full h-16 fixed z-30 text-sm backdrop-blur-sm transition-all ease-in-out duration-1000 ${
+      className={`w-full h-20 fixed z-30 text-sm backdrop-blur-sm transition-all ease-in-out duration-1000 ${
         scrolled ? "bg-white text-primary shadow" : "text-white"
       }`}
     >
       <div className="w-full h-full px-5 flex items-center justify-between relative">
-        <p className="text-xl dynalight-regular">Jess Bates Coaching</p>
+        <p className="text-2xl dynalight-regular">Jess Bates Coaching</p>
         <ul className="flex gap-5 items-center max-lg:hidden">
           <li>Home</li>
           <li>Courses</li>
@@ -49,7 +49,7 @@ const Navbar = () => {
         </ul>
       </div>
       {menuOpen && (
-        <div className="lg:hidden flex flex-col items-center bg-white text-primary absolute top-16 left-0 w-full">
+        <div className="lg:hidden flex flex-col items-center bg-white text-primary absolute top-20 left-0 w-full">
           <p className="w-full p-3 border-b">Home</p>
           <p className="w-full p-3 border-b">Courses</p>
           <p className="w-full p-3 border-b">Contact</p>
