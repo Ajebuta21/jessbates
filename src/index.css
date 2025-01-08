@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+.dynalight-regular {
+  font-family: "Dynalight", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@tailwind utilities;
